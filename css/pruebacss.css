@@ -1,0 +1,7 @@
+nav {
+  grid-area: nav;
+  background-color: #bd904c;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  transition: all .3s ease-in-out; }
