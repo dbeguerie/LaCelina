@@ -1,1 +1,6 @@
-@import "nav"
+$spacing: 8px;
+
+div {
+    padding: $spacing*2;
+}
+
