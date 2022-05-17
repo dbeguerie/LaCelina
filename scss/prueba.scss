@@ -1,6 +1,31 @@
 $spacing: 8px;
 
-div {
-    padding: $spacing*2;
+.container {
+    padding: $spacing*5;
 }
 
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 24em / $i;
+    }
+}
+
+$lista-colores: brown, red, orange, green;
+@each $color in $lista-colores {
+    .color-#{$color} {
+        background-color: $color;
+    }
+    
+}
+$fotos: (
+    frutos secos:brown,
+    miel: orange,
+    verdura: green,
+    fruta: red,
+);
+
+@each $brown, $color in $fotos {
+    .foto-#{$fotos} {
+        color: $color;
+    }
+}

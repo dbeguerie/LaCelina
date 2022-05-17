@@ -1,7 +1,29 @@
-nav {
-  grid-area: nav;
-  background-color: #bd904c;
-  color: white;
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  transition: all .3s ease-in-out; }
+.container {
+  padding: 40px; }
+
+h1 {
+  font-size: 24em; }
+
+h2 {
+  font-size: 12em; }
+
+h3 {
+  font-size: 8em; }
+
+h4 {
+  font-size: 6em; }
+
+h5 {
+  font-size: 4.8em; }
+
+h6 {
+  font-size: 4em; }
+
+.color-brown {
+  background-color: brown; }
+
+.color-grey {
+  background-color: grey; }
+
+.color-orange {
+  background-color: orange; }
