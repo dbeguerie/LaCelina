@@ -27,68 +27,70 @@
             <input placeholder="¿Qué estás buscando?">
             <div class="home-imagen">
                 <div>
-                   <img src="imgs/carrito.jpg" alt="carrito" width="50" hspace="50px">
-                   <h3>Mi Carrito</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                      </svg>
+                   <h4 class="mx-auto" style="width: 150px;">Mi Carrito</h4>
                 </div>
                 <div>
-                  <img src="imgs/micuenta.jpg" alt="micuenta" width="50">
-                  <h3>Mi Cuenta</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                      </svg>
+                  <h4>Mi Cuenta</h4>
                 </div>
-            </div>
+           </div>
         </div>
+        
 </header>
 <nav>
     <ul>
         <li class="nav-mov">
-        <a class="nav-link active" aria-current="page" href="../Entrega-Github/Pages/quienessomos.html">¿Quiénes Somos?</a>
+        <a href="../Entrega-Github/Pages/quienessomos.html">¿Quiénes Somos?</a>
         </li>
         <li class="nav-mov">
-        <a class="nav-link active" aria-current="page" href="NuestrosProductos.html">Nuestros Productos</a>
+        <a href="../Entrega-Github/Pages/nuestroproductos.html">Nuestros Productos</a>
         </li>
         <li class="nav-mov">
-        <a class="nav-link active" aria-current="page" href="Mayorista.html">Mayorista</a>
+        <a href="../Entrega-Github/Pages/mayorista.html">Mayorista</a>
         </li>
         <li class="nav-mov">
-        <a class="nav-link active" aria-current="page" href="ProgramatuEnvio.html">Programá tu Envío</a>
+        <a href="../Entrega-Github/Pages/programatuenvio.html">Programá tu Envío</a>
         </li>
     </ul>
 </nav> 
 <main>
     <h2 class="main-p">Nuestros Destacados</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores earum enim excepturi unde itaque quam dolor odio perferendis, placeat dolorum aut quos? Id neque culpa praesentium porro itaque hic.
-    Dolor nam, asperiores natus, doloribus consectetur provident delectus temporibus molestiae a, quaerat corrupti. Eum accusantium reiciendis iusto, pariatur illo debitis veniam quaerat esse commodi, quia quae voluptate magnam incidunt harum. ipsum dolor sit, amet consectetur adipisicing elit. Minima architecto maxime excepturi voluptas? Maiores obcaecati, rerum ipsam dignissimos, dolor cum, alias ad ab asperiores quaerat fugit rem quia vero doloribus.</p>
-    <div class="d-flex flex-wrap- align-items-center justify-center-around py-3">
-        <div class="container">
-            <div class="row">
-              <div class="col-3">
-        <div class="main-mov">
-        <img class="img-fluid" src="imgs/frutossecos.jpg" alt="Frutos secos">
-        <h2>Frutos secos</h2>
+    <h4 class="text-center">Nuestros productos se destacan por ser 100% orgánicos y por ende tener un alto valor nutricional, debido a su gran contenido de vitaminas y minerales, casi siempre mayor al de productos procesados con químicos. Nos enfocamos en brindar productos de estación frescos, listos para ser consumidos .</h4>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
-    <div class="col-3">
-        <div class="main-mov">
-            <img class="img-fluid" src="imgs/miellacelina.jpg" alt="miel" width="200">
-            <h2>Miel</h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Entrega-Github/imgs/miellacelina.jpg" class= "d-block w-100" alt="Miel">
+          </div>
+          <div class="carousel-item">
+            <img src="../Entrega-Github/imgs/fruta.jpg" class="d-block w-100" alt="fruta">
+          </div>
+          <div class="carousel-item">
+            <img src="../Entrega-Github/imgs/Verdura.jpg" class="d-block w-100" alt="Verdura">
+          </div>
+          <div class="carousel-item">
+            <img src="../Entrega-Github/imgs/frutossecos.jpg" class="d-block w-100" alt="frutos">
+          </div>
         </div>
-    </div>
-    <div class="col-3">
-        <div class="main-mov">
-            <img class="img-fluid" src="imgs/Verdura.jpg" alt="Verdura">
-        <h2>Verdura</h2>
         </div>
-    </div>
-    <div class="col-3">
-        <div class="main-mov">
-            <img img class="img-fluid"src="imgs/fruta.jpg" alt="Fruta">
-        <h2>Fruta</h2>
-        </div>
-    </div>
-    <div class="col-3">
-    </div>
-</div>
-</div>
-</div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

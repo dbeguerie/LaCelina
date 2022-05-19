@@ -41,7 +41,7 @@ li {
     background-color: rgb(189, 144, 76);
     color: white;
     display: grid;
-    grid-template-columns: 500px 500px 400px;
+    grid-template-columns: repeat(3, 2fr);
     grid-template-rows: 100px;
     line-height: 5px;
     padding-top: 10px;
@@ -49,10 +49,10 @@ li {
 }
 
 .home-imagen {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     line-height: 0px;
+    display: flex;
+    margin-right: 200px;
 }
 
 nav {
@@ -85,4 +85,16 @@ nav {
     text-align: center;
     color: rgba(210, 105, 30, 0.63);
 }
+
+.carousel {
+    display: block;
+    height: auto;
+    max-width: 50%;
+    line-height: 1;
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+    
+    }
+
 
