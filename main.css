@@ -93,8 +93,13 @@ nav {
     line-height: 1;
     width: 50%;
     margin: 0 auto;
-    float: none;
-    
+    float: none; 
     }
 
+.quienesomos {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    margin: 0 auto;
+    float: none;
+}
 
