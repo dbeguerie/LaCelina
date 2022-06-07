@@ -28,12 +28,12 @@ justify-content: center;
 
 ul {
     list-style: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding-top: 10px;
 }
 
 li {
-    padding-left: 150px;
-    padding-right: 100px;
     transition: all .3s ease-in-out;
 }
 
@@ -41,10 +41,10 @@ li {
     background-color: rgb(189, 144, 76);
     color: white;
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: 400px 400px 500px;
     grid-template-rows: 100px;
     line-height: 5px;
-    padding-top: 10px;
+    padding-top: 20px;
     align-items: center;
 }
 
@@ -58,19 +58,12 @@ li {
 nav {
     background-color: rgb(189, 144, 76);
     color: white;
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
     transition: all .3s ease-in-out;
 }
 
 .nav-mov:hover {
     background-color: white;
     transform: translateX(50deg);
-}
-
-.main-imagen {
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
 }
 
 .main-mov {
@@ -101,5 +94,17 @@ nav {
     grid-template-rows: 100px 100px 100px 100px;
     margin: 0 auto;
     float: none;
+}
+
+.influencers {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    position: relative;
+}
+
+@media screen and (min-width:1024px) {
+    .home-title {
+        grid-template-columns: 300px 400px 500px;
+    }
 }
 

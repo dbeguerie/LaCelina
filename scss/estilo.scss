@@ -1,0 +1,82 @@
+$color-primary: rgba(210, 105, 30, 0.63);
+
+@import "header";
+@import "main";
+@import "footer";
+
+.home-intro {
+    background-color: rgb(233, 213, 187);
+    color: white;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;  
+    }
+    
+    .home-title {
+        background-color: rgb(189, 144, 76);
+        color: white;
+        display: grid;
+        grid-template-columns: 400px 400px 500px;
+        grid-template-rows: 100px;
+        line-height: 5px;
+        padding-top: 20px;
+        align-items: center;
+        
+    }
+    
+    .home-imagen {
+        justify-content: center;
+        line-height: 0px;
+        display: flex;
+        margin-right: 200px;
+    }
+    
+    .nav-mov:hover {
+        background-color: white;
+        transform: translateX(50deg);
+    }
+    
+    .main-mov {
+        transition: all .3s ease-in-out;
+    }
+    
+    .main-mov:hover {
+        background-color: rgb(114, 95, 82);
+        transform: translateX(50deg);
+    }
+    
+    .main-p {
+        text-align: center;
+        color: rgba(210, 105, 30, 0.63);
+    }
+    
+    .carousel {
+        display: block;
+        height: auto;
+        max-width: 50%;
+        line-height: 1;
+        width: 50%;
+        margin: 0 auto;
+        float: none; 
+        }
+    
+    .quienesomos {
+        display: grid;
+        grid-template-rows: 100px 100px 100px 100px;
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .influencers {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        position: relative;
+    }
+
+   h2 {
+        color: rgba(210, 105, 30, 0.63);
+        }
+    
+    
+    
+    
